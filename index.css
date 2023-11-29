@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(68, 0, 255);
+  font-family: "Courier New", Courier, monospace;
+  vertical-align: middle;
+  background: rgb(3, 117, 232);
+  background: linear-gradient(
+    90deg,
+    rgb(240, 156, 156) 0%,
+    rgb(195, 0, 255) 52%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
+h3 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(195, 0, 255) 52%;
+  width: 30vw;
+
+  padding: 1rem;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2em;
+  margin: auto;
+  margin-top: 5em;
+}
+
+img {
+  border-radius: 50%;
+  border: 1px dashed rgb(120, 119, 158);
+  border-style: groove;
+  transition: 0.6s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.button {
+  text-decoration: none;
+  background-color: rgb(197, 17, 182);
+  font-size: 1.2em;
+  border-radius: 2em;
+  border: 1px solid rgb(128, 128, 128);
+
+  margin-bottom: 1em;
+  width: 100%;
+  height: 2.3rem;
+}
+
+section > div > .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: rgb(191, 11, 170);
+  cursor: pointer;
+}
+
+@media only screen and (max-device-width: 900px) {
+  main {
+    width: 80%;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+}
