@@ -30,7 +30,7 @@ main {
 
 img {
   border-radius: 50%;
-  border: 1px dashed rgb(120, 119, 158);
+  border: 1px solid rgb(14, 190, 221);
   border-style: groove;
   transition: 0.6s;
 }
